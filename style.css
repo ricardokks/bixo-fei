@@ -58,11 +58,10 @@ flex-direction: column;
 .ca{
     margin: 0px;
     margin-top: 5px;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 30px;
     color: rgb(0, 0, 0);
     justify-content: center;
-    border: black 0.01px solid ;
     transition: all 1s ease;
 }
 .ca:hover{
