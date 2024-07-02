@@ -1,0 +1,163 @@
+body{
+display: flex;
+margin: 0px;
+width: 100vw;
+height: 100vh;
+font-family: Satoshi;
+align-items: center;
+flex-direction: column;
+}
+
+#cabecao{
+    height: 130px;
+    width: 90vw;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo{
+    width: 100px;
+    height: 80px;
+}
+
+#comcell{
+    background-color: rgb(213, 251, 255);
+    width: 160px;
+    height: 100px;
+    flex-direction: column;
+    position: fixed;
+    margin-left: auto;
+    transform: translate(100px,120px);
+    pointer-events: none;
+    transition: all 1s ease;
+    opacity: 0;
+}
+
+.porra{
+    font-weight: 700;
+    font-size: 40px;
+    margin: 0px;
+}
+#nela{
+    color: aquamarine;
+    transform: translate(10px,-20px);
+}
+
+#porras{
+    display: flex;
+    flex-direction: row;
+}
+
+.cu{
+    margin: 30px;
+    font-weight: 200;
+}
+
+.ca{
+    margin: 0px;
+    margin-top: 5px;
+    font-weight: 500;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    border: black 0.01px solid ;
+    transition: all 1s ease;
+}
+.ca:hover{
+    background-color: black;
+    color: white;
+}
+
+article{
+    margin: 150px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: aliceblue;
+}
+
+#textfoda{
+    width: 30%;
+}
+
+#contraporras{
+    margin: 5px;
+    display: none;
+    transform: translate(50px);
+}
+
+#cuzinho{
+    font-size: 50px;
+    font-weight: 900;
+}
+#canela{
+    font-size: 20px;
+}
+
+#cria{
+    width: 500px;
+    height: 500px;
+}
+.barrinha-menu {
+    position: static;
+    height: 8px;
+    width: 60px;
+    background-color: #000;
+    display: none;
+    margin: 6px;
+    transition: width 2s ease, margin-left 2s ease;
+  }
+
+  div:hover .barrinha-menu:nth-child(2) {
+    margin-left: 15px;
+  }
+  
+  div:hover .barrinha-menu {
+    width: 45px;
+    transition: width 1s ease, margin-left 2s ease;
+  }
+
+@media (orientation: portrait){
+    article{
+        flex-direction: column;
+        align-items: center;
+    }
+    #cria{
+        width: 150px;
+        height: 150px;
+
+    }
+     #cabecao{
+     justify-content: space-around;
+     height: 120px;
+     width: 100vw;
+    position: fixed;
+}
+
+    #textfoda{
+        width: 100%;
+        align-items: center;
+    }
+
+    #cuzinho{
+text-align: center;
+    }
+    #canela{
+        text-align: center;
+    }
+
+    .cu{
+display: none;
+    }
+    .barrinha-menu {
+     display: block;
+
+    }
+    #contraporras{
+        display: block;
+    }
+
+}
